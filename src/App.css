@@ -1,1 +1,118 @@
+.App {
+  width: 550px;
+  height: 868px;
+  background: #23252C;
+  margin: 0px auto;
+}
+.wrapper {
+  width: 317px;
+  margin: 0 auto;
+}
 
+/*============Header==============*/
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 44px;
+}
+.header .header-img img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px
+}
+
+/*=================MAIN==============*/
+main {
+  margin-top: -4px;
+  background: #1A1B21;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 0px 35px;
+  
+}
+.main-name {
+  display: flex;
+  flex-direction: column;
+
+}
+.main-h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 21px;
+  
+}
+.main-p1 {
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+margin: 7px auto;
+color: #F3BF99;
+}
+.main-p2 {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #F5F5F5;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 16px;
+}
+.main-btn {
+  width: 247px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+
+.article-h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+.article-p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+.main-article:last-child {
+  margin-bottom: 34px;
+}
+
+/* ==============Footer ================*/
+footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.footer {
+  margin: 0 35px;
+}
+.footer-icons {
+ 
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content:space-evenly;
+}
